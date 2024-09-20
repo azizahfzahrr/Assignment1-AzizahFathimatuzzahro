@@ -14,11 +14,11 @@ class Transaksi {
         println("1. Pemasukan")
         println("2. Pengeluaran")
         println("Pilih menu yang diinginkan: ")
-        val menu = readln().toIntOrNull()
+        val menu = readln().trim().toIntOrNull()
         when (menu) {
             1 -> {
                 println("Masukkan nominal pemasukan: ")
-                pemasukan = readln().toInt()
+                pemasukan = readln().trim().toInt()
                 saldo += pemasukan
                 listPemasukan.add(pemasukan)
                 totalPemasukan = listPemasukan.sum()
@@ -27,7 +27,7 @@ class Transaksi {
 
             2 -> {
                 println("Masukkan nominal pengeluaran: ")
-                pengeluaran = readln().toInt()
+                pengeluaran = readln().trim().toInt()
                 saldo -= pengeluaran
                 listPengeluaran.add(pengeluaran)
                 totalPengeluaran = listPengeluaran.sum()
@@ -35,9 +35,8 @@ class Transaksi {
         }
         println("Saldo anda adalah $saldo")
     }
-    fun getSaldo () : Int{
-        return saldo
-    }
+    fun getSaldo () = 0
+
     fun riwayatTransaksi(){
         if (listPemasukan.isEmpty() || listPengeluaran.isEmpty()){
             println("Riwayat transaksi tidak ditemukan")
@@ -45,13 +44,13 @@ class Transaksi {
             println("Riwayat Pemasukan")
             listPemasukan.forEach {
                 if (it > 0){
-                    println("$it")
+                    println(it)
                 }
             }
             println("Riwayat Pengeluaran")
             listPengeluaran.forEach {
                 if (it > 0){
-                    println("$it")
+                    println(it)
                 }
             }
         }
