@@ -27,4 +27,5 @@ Aplikasi sederhana yang dibuat dengan bahasa pemrograman Kotlin untuk mengelola 
 
 ## **Hasil Screenshoot Aplikasi Personal Finance Manager**
 ![Screenshot 2024-09-20 103752](https://github.com/user-attachments/assets/a7b9c8f7-23a0-4637-85ed-5ed862a34bcb)
+
 Menu untuk input pemasukan atau pengeluaran sekaligus menampilkan saldo
