@@ -24,3 +24,13 @@ Aplikasi sederhana yang dibuat dengan bahasa pemrograman Kotlin untuk mengelola 
 1. Clone atau unduh repositori ini.
 2. Buka Android Studio.
 3. Jalankan aplikasi dengan memilih menu "Run"
+
+
+## **Hasil Screenshoot Aplikasi Personal Finance Manager**
+- ** Menu untuk input pemasukan dan pengeluaran
+![image](https://github.com/user-attachments/assets/c85c9f9e-80b7-42d9-bd3a-5af78471ff23)
+
+- ** Menu untuk perhitungan saldo
+![image](https://github.com/user-attachments/assets/0e2dd3d6-49e7-4044-adbe-7a9e8ba2ee0b)
+
+
